@@ -1,4 +1,39 @@
+# Base configuration
 baseURL = "http://example.org/"
-languageCode = "en-us"
-title = "My New Hugo Site"
-theme = "hello-friend-ng"
+languageCode        = "es-ES"
+title               = "SVQJUG Site"
+theme               = "hello-friend-ng"
+
+# Menu configuration
+[menu]
+    [[menu.main]]
+        identifier  = "about"
+        name        = "¿Quiénes somos?"
+        url         = "/about"
+    [[menu.main]]
+        identifier  = "contact"
+        name        = "Contacto"
+        url         = "/contact"
+    [[menu.main]]
+        identifier  = "code"
+        name        = "Código de conducta"
+        url         = "/code"
+
+# Params configuration
+[params]
+    homeSubtitle    = "Bienvenid@s a la web del SVQJUG"
+
+[params.logo]
+    logoText        = "$ cd /home/"
+    logoHomeLink    = "/"
+    # Set to a valid CSS color to change the cursor in the logo.
+    # logoColor     = "#67A2C9"
+
+# Social icons
+[[params.social]]
+    name = "twitter"
+    url  = "https://twitter.com/SVQJUG"
+
+[[params.social]]
+    name = "github"
+    url  = "https://github.com/SVQJUG"
