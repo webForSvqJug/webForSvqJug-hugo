@@ -1,5 +1,5 @@
 # Base configuration
-baseURL = "http://example.org/"
+baseURL = "https://webforsvqjug.github.io/"
 languageCode        = "es-ES"
 title               = "SVQJUG Site"
 theme               = "hello-friend-ng"
