@@ -2,7 +2,6 @@
 # https://gohugo.io/content-management/multilingual/#translation-of-strings
 
 # Generic
-#
 [translations]
 other = "Übersetzungen"
 
