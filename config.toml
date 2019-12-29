@@ -1,6 +1,6 @@
 # Base configuration
 baseURL = "https://webforsvqjug.github.io/"
-languageCode        = "es-ES"
+languageCode        = "es-es"
 title               = "SVQJUG Site"
 theme               = "hello-friend-ng"
 
@@ -10,12 +10,7 @@ theme               = "hello-friend-ng"
         identifier = "meetup"
         name = "Meetup"
         url = "https://www.meetup.com/SVQJUG/"
-        weight = 1
-    [[menu.main]]
-        identifier  = "events"
-        name        = "Eventos"
-        url         = "/events"
-        weight = 2
+        weight = 1    
     [[menu.main]]
         identifier  = "code"
         name        = "Código de conducta"
@@ -44,7 +39,7 @@ theme               = "hello-friend-ng"
     homeSubtitle    = "Bienvenid@s a la web del SVQJUG"
 
 [params.logo]
-    logoText        = "$ cd /home/"
+    logoText        = "$ cd /Inicio/"
     logoHomeLink    = "/"
     # Set to a valid CSS color to change the cursor in the logo.
     # logoColor     = "#67A2C9"
