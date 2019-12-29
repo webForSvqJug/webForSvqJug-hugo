@@ -14,7 +14,7 @@ theme               = "hello-friend-ng"
     [[menu.main]]
         identifier  = "about"
         name        = "¿Quiénes somos?"
-        url         = "/about"
+        url         = "/about"        
     [[menu.main]]
         identifier  = "contact"
         name        = "Contacto"
