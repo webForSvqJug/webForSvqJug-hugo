@@ -16,7 +16,7 @@ other = "También disponible en"
 other = "Archivo"
 
 [home]
-other = "Home"
+other = "Inicio"
 
 [notFound]
 other = "Oops, página no encontrada…"
@@ -34,3 +34,5 @@ other = "Tabla de Contenido"
 [wordCount]
 one   = "Una Palabra"
 other = "{{ .Count }} Palabras"
+
+
