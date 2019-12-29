@@ -10,27 +10,31 @@ theme               = "hello-friend-ng"
         identifier = "meetup"
         name = "Meetup"
         url = "https://www.meetup.com/SVQJUG/"
+<<<<<<< HEAD
         weight = 1    
+=======
+        weight = 1
+>>>>>>> 5c2e8b419c4de8181e7ee9fa2ef4fc6a64d16f82
     [[menu.main]]
         identifier  = "code"
         name        = "Código de conducta"
         url         = "/code"
-        weight = 3
+        weight = 2
     [[menu.main]]
         identifier  = "faq"
         name        = "FAQ"
         url         = "/faq"
-        weight = 4
+        weight = 3
     [[menu.main]]
         identifier  = "resources"
         name        = "Rescursos"
         url         = "/resources"
-        weight = 5
+        weight = 4
     [[menu.main]]
         identifier  = "blog"
         name        = "Blog"
         url         = "/blog"
-        weight = 6
+        weight = 5
 
 
 
