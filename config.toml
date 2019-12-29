@@ -18,6 +18,10 @@ theme               = "hello-friend-ng"
         identifier  = "code"
         name        = "Código de conducta"
         url         = "/code"
+    [[menu.main]]
+        identifier  = "events"
+        name        = "Eventos"
+        url         = "/envents"
 
 # Params configuration
 [params]
