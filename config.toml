@@ -6,6 +6,11 @@ theme               = "hello-friend-ng"
 
 # Menu configuration
 [menu]
+    [[ menu.main]]
+        identifier = "meetup"
+        name = "Meetup"
+        url = "https://www.meetup.com/SVQJUG/"
+        weight = 1 
     [[menu.main]]
         identifier  = "about"
         name        = "¿Quiénes somos?"
@@ -18,7 +23,23 @@ theme               = "hello-friend-ng"
         identifier  = "code"
         name        = "Código de conducta"
         url         = "/code"
-
+        weight = 2
+    [[menu.main]]
+        identifier  = "faq"
+        name        = "FAQ"
+        url         = "/faq"
+        weight = 3
+    [[menu.main]]
+        identifier  = "resources"
+        name        = "Recursos"
+        url         = "/resources"
+        weight = 4
+    [[menu.main]]
+        identifier  = "blog"
+        name        = "Blog"
+        url         = "/blog"
+        weight = 5
+        
 # Params configuration
 [params]
     homeSubtitle    = "Bienvenid@s a la web del SVQJUG"
