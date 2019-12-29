@@ -6,38 +6,18 @@ theme               = "hello-friend-ng"
 
 # Menu configuration
 [menu]
-    [[ menu.main]]
-        identifier = "meetup"
-        name = "Meetup"
-        url = "https://www.meetup.com/SVQJUG/"
-        weight = 1
     [[menu.main]]
-        identifier  = "events"
-        name        = "Eventos"
-        url         = "/events"
-        weight = 2
+        identifier  = "about"
+        name        = "¿Quiénes somos?"
+        url         = "/about"
+    [[menu.main]]
+        identifier  = "contact"
+        name        = "Contacto"
+        url         = "/contact"
     [[menu.main]]
         identifier  = "code"
         name        = "Código de conducta"
         url         = "/code"
-        weight = 3
-    [[menu.main]]
-        identifier  = "faq"
-        name        = "FAQ"
-        url         = "/faq"
-        weight = 4
-    [[menu.main]]
-        identifier  = "resources"
-        name        = "Rescursos"
-        url         = "/resources"
-        weight = 5
-    [[menu.main]]
-        identifier  = "blog"
-        name        = "Blog"
-        url         = "/blog"
-        weight = 6
-
-
 
 # Params configuration
 [params]
